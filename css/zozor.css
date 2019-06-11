@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+#general {
+    width: 90%;
+    margin: 15px auto;
+}
+
+#logo h2 {
+    font-size: 15px;
+    width: 60%;
+    float: left;
+}
+
+#menu {
+    width: 40%;
+    float: left;
+}
+
+#menu li {
+    list-style: none;
+    /*borrar el estilo*/
+    display: inline-block;
+    /*poner el fila*/
+    padding: 5px;
+}
+
+#linea {
+    clear: both;
+}
+
+#texto {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    margin: 0px 5px 0px 0px;
+    text-align: justify;
+}
+
+#texto h1 {
+    font-size: 16px;
+}
+
+#rojo {
+    float: right;
+    background: #9b1616;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+#linea {
+    padding: 2px;
+    font-size: 14px;
+    background: #0c0e0c;
+    color: aliceblue;
+}
+
+#texto2 {
+    float: left;
+    background: #cccccc;
+    width: 26%;
+    font-size: 8;
+    text-align: justify;
+}
+
+#texto2 img {
+    padding: 5px 0px 0px 10px;
+}
+
+#zozor {
+    font-size: 8px;
+    text-align-last: center
+}
+
+#primero {
+    float: left;
+    width: 30%;
+}
+
+#primero h1 {
+    font-size: 14px;
+}
+
+#segundo {
+    float: left;
+    width: 40%;
+}
+
+#segundo h1 {
+    font-size: 14px;
+}
+
+#tercero {
+    float: left;
+    width: 30%;
+}
+
+#tercero h1 {
+    font-size: 14px;
+}
+
+#lista1 {
+    list-style: none;
+    width: 50%;
+    float: left;
+}
+
+#imagen {
+    display: block;
+}
+
+#lista2 {
+    list-style: none;
+    width: 50%;
+    float: left;
+}
+
+#paginali {
+    width: 90%;
+    margin: 5px auto;
+    text-decoration-line: none;
+    list-style: none;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(12, 121, 70);
+}
+
+#pagina a {
+    display: inline-block;
+}
+
+#lin li {
+    list-style: none;
+    /*borrar el estilo*/
+    display: inline-block;
+    /*poner el fila*/
+    padding: 5px;
+    background: #b90a0a;
+}

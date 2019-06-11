@@ -1,0 +1,91 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    color: black;
+    line-height: 2;
+    background-color: aquamarine;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url('/imagenes/principal.jpg');
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url('/imagenes/cajamarca.jpg');
+    min-height: 100px;
+}
+
+.bgimg-3 {
+    background-image: url("/imagenes/contaco.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+@media only screen and (max-device-width: 1600px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 450px;
+    }
+}
+
+#navegador li {
+    width: 90%;
+    margin: 5px auto;
+    text-decoration-line: none;
+    color: black;
+    list-style: none;
+}
+
+#navegador a {
+    color: black;
+    display: inline-block;
+}
+
+#paginali {
+    width: 90%;
+    margin: 5px auto;
+    text-decoration-line: none;
+    list-style: none;
+}
+
+#pagina a {
+    display: inline-block;
+}
+
+#navbar-nav li {
+    list-style: none;
+    /*borrar el estilo*/
+    display: inline-block;
+    /*poner el fila*/
+    padding: 5px;
+    background: #b90a0a;
+}
